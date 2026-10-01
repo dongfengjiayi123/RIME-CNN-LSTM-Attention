@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# 数据文件（太大，不上传）
+data/*.csv
+data/*.json
+
+# 模型检查点
+checkpoints/
+*.pth
+*.pt
+
+# 实验结果（可选上传）
+# results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+logs/
